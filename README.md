@@ -24,9 +24,9 @@ Version History:
 If you want to use this script, your Nagios user needs sudo privileges to perform this script.
 Start visudo and add the following lines at the end of the file:
 
-<nagiosuser> ALL=(ALL) NOPASSWD:/opt/VRTS/bin/hastatus
-<nagiosuser> ALL=(ALL) NOPASSWD:/sbin/vxprint
-<nagiosuser> ALL=(ALL) NOPASSWD:/<path>/<to>/check_veritas_status.py
+- <nagiosuser> ALL=(ALL) NOPASSWD:/opt/VRTS/bin/hastatus
+- <nagiosuser> ALL=(ALL) NOPASSWD:/sbin/vxprint
+- <nagiosuser> ALL=(ALL) NOPASSWD:/<path>/<to>/check_veritas_status.py
 
 Tested with the following Python versions:
 - 2.4.3
