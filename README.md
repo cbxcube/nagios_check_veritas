@@ -13,7 +13,6 @@ In all cases you need the exact name of the servicegroup which is shown by the o
 Author:               Frank Reimer
 Version:              0.3
 Creation Date:        2012-08-09
---------------------------------------------------
 
 Version History:
 
