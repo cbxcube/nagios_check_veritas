@@ -10,15 +10,15 @@ In all cases you need the exact name of the servicegroup which is shown by the o
 /opt/VRTS/bin/hastatus -sum and of course you need the exact name of the volumegroup.
 
 
-Author:               Frank Reimer
-Version:              0.3
-Creation Date:        2012-08-09
+- Author:               Frank Reimer
+- Version:              0.3
+- Creation Date:        2012-08-09
 
 Version History:
 
-2012-08-14: Fixing servicegroup check - removing re.compile for Python compatibility
-2012-08-10: Adding check for plexes in volumegroup
-2012-08-09: Script creation
+- 2012-08-14: Fixing servicegroup check - removing re.compile for Python compatibility
+- 2012-08-10: Adding check for plexes in volumegroup
+- 2012-08-09: Script creation
 
 #PREREQUISITES:
 If you want to use this script, your Nagios user needs sudo privileges to perform this script.
@@ -36,9 +36,7 @@ Tested with the following Python versions:
 Usage: check_veritas_sfha.py [-s <SERVICEGROUP>] [-v <VOLUMEGROUP>]
 
 Options:
-  --version             show program's version number and exit
-  -h, --help            show this help message and exit
-  -s SERVICEGROUP, --servicegroup=SERVICEGROUP
-                        Servicegroup you want to monitor.
-  -v VOLUMEGROUP, --volumegroup=VOLUMEGROUP
-                        Volumegroup you want to monitor
+-  --version                                          show program's version number and exit
+-  -h, --help                                         show this help message and exit
+-  -s SERVICEGROUP, --servicegroup=SERVICEGROUP       Servicegroup you want to monitor.
+-  -v VOLUMEGROUP, --volumegroup=VOLUMEGROUP          Volumegroup you want to monitor
